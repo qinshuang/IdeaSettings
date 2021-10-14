@@ -1,6 +1,12 @@
 <application>
   <component name="easyJavadoc">
     <option name="author" value="sqin" />
+    <option name="classTemplateConfig">
+      <TemplateConfig>
+        <option name="isDefault" value="false" />
+        <option name="template" value="/**&#10; * $DOC$&#10; * @author $AUTHOR$&#10; * @since $DATE$&#10; **/" />
+      </TemplateConfig>
+    </option>
     <option name="simpleFieldDoc" value="true" />
   </component>
 </application>
