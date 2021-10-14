@@ -1,5 +1,6 @@
 <application>
   <component name="easyJavadoc">
+    <option name="appId" value="" />
     <option name="author" value="sqin" />
     <option name="classTemplateConfig">
       <TemplateConfig>
@@ -7,6 +8,9 @@
         <option name="template" value="/**&#10; * $DOC$&#10; * @author $AUTHOR$&#10; * @since $DATE$&#10; **/" />
       </TemplateConfig>
     </option>
+    <option name="secretId" value="" />
+    <option name="secretKey" value="" />
     <option name="simpleFieldDoc" value="true" />
+    <option name="token" value="" />
   </component>
 </application>
