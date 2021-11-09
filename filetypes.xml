@@ -1,6 +1,8 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="建表SQL" type="AUTO_DETECTED" />
+      <mapping pattern="建表SQL.sql" type="AUTO_DETECTED" />
       <mapping pattern="ControllerTemplate" type="FTL" />
       <mapping pattern="ServiceImplTemplate" type="FTL" />
       <mapping ext="modeltemplate" type="FTL" />
