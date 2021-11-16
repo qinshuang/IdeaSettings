@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="502" />
     <option name="newTranslationDialogY" value="343" />
     <histories>
+      <item value="SELECT distinct u.id, u.account, u.orgid, u.code, u.name, u.sex FROM t_sys_user u left join t_sys_dutypost d on d.userid = u.id LEFT JOIN t_sys_userrole ur ON ur.dutypostid = d.id WHERE u.status = '1' and u.id!='super_admin_id' and u.ischeck='1' and d.id is not null and u.id not in (select userid from t_sys_userproject where prjid=?) and u.orgid IN ( WITH RECURSIVE cte AS ( SELECT a.id, a.parentId FROM t_sys_org a WHERE a.id in ( select orgid from t_sys_projectorg where prjid=?) and a.status='1' UNION ALL SELECT k.id, k.parentId FROM t_sys_org k INNER JOIN cte c ON c.id = k.parentid and k.status='1' )SELECT id FROM cte )" />
       <item value="测试" />
       <item value="\u 5 F 53\u 524 D\u 8282\u 70 B 9" />
       <item value="get Session Attr" />
@@ -54,7 +55,6 @@
       <item value="operating" />
       <item value="operating Status" />
       <item value="运行状态" />
-      <item value="WEEKLY" />
     </histories>
     <option name="languageScores">
       <map>
@@ -81,7 +81,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1636527698103" />
+    <option name="lastTrimTime" value="1637055933259" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
