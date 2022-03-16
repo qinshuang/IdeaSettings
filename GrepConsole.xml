@@ -172,6 +172,75 @@
             </list>
           </option>
         </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="URL:" />
+              </GrepModel>
+              <GrepModel>
+                <option name="expression" value="CLASS_METHOD" />
+              </GrepModel>
+              <GrepModel>
+                <option name="expression" value="Consuming:" />
+              </GrepModel>
+              <GrepModel>
+                <option name="expression" value="Result:" />
+              </GrepModel>
+              <GrepModel>
+                <option name="expression" value="" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="URL:" />
+              </GrepModel>
+              <GrepModel>
+                <option name="expression" value="CLASS_METHOD" />
+              </GrepModel>
+              <GrepModel>
+                <option name="expression" value="Consuming:" />
+              </GrepModel>
+              <GrepModel>
+                <option name="expression" value="Result:" />
+              </GrepModel>
+              <GrepModel>
+                <option name="expression" value="Parms:" />
+              </GrepModel>
+              <GrepModel>
+                <option name="expression" value="" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="URL:" />
+              </GrepModel>
+              <GrepModel>
+                <option name="expression" value="CLASS_METHOD" />
+              </GrepModel>
+              <GrepModel>
+                <option name="expression" value="Consuming:" />
+              </GrepModel>
+              <GrepModel>
+                <option name="expression" value="Result:" />
+              </GrepModel>
+              <GrepModel>
+                <option name="expression" value="Parms:" />
+              </GrepModel>
+              <GrepModel>
+                <option name="expression" value="RequestBody:" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
       </list>
     </option>
     <option name="profiles">
