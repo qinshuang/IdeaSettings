@@ -74,6 +74,10 @@
           <option name="url" value="git@github.com:sxpl/FaceAC.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.com" />
+          <option name="userName" value="qinshuang_11@163.com" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\Workpaces\awuwuwu" />
