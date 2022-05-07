@@ -78,9 +78,17 @@
           <option name="url" value="http://gitlab.com" />
           <option name="userName" value="qinshuang_11@163.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.yuntucredit.com.cn:8333/dev/eiscloud.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.yuntucredit.com.cn:8333" />
+          <option name="userName" value="qinshuang_11@163.com" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\Workpaces\awuwuwu" />
+    <option name="cloneParentDir" value="D:\Workpaces\yuntucredit" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ID_ORDER">
