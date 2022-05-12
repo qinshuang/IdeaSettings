@@ -86,9 +86,13 @@
           <option name="url" value="http://gitlab.yuntucredit.com.cn:8333" />
           <option name="userName" value="qinshuang_11@163.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/slj-work/PublicCMS.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\Workpaces\yuntucredit" />
+    <option name="cloneParentDir" value="D:\Workpaces\slj" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ID_ORDER">
