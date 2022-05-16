@@ -90,9 +90,17 @@
           <option name="url" value="https://gitee.com/slj-work/PublicCMS.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@gitlab.yuntucredit.com.cn:java/idecision.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.yuntucredit.com.cn:8333/java/idecision.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\Workpaces\slj" />
+    <option name="cloneParentDir" value="D:\Workpaces\yuntucredit" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ID_ORDER">
