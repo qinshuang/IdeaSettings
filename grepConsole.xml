@@ -236,6 +236,15 @@
           <option name="models">
             <list>
               <GrepModel>
+                <option name="expression" value="RequestLogAop" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
                 <option name="expression" value="" />
               </GrepModel>
             </list>
@@ -245,7 +254,16 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="RequestLogAop" />
+                <option name="expression" value="neo4j" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="match" />
               </GrepModel>
             </list>
           </option>
