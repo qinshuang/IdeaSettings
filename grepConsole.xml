@@ -254,6 +254,15 @@
           <option name="models">
             <list>
               <GrepModel>
+                <option name="expression" value="SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;." />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
                 <option name="expression" value="neo4j" />
               </GrepModel>
             </list>
@@ -264,15 +273,6 @@
             <list>
               <GrepModel>
                 <option name="expression" value="match" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value="SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;." />
               </GrepModel>
             </list>
           </option>
