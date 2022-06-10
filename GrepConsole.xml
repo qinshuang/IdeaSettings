@@ -272,7 +272,7 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="match" />
+                <option name="expression" value="match (snode:Bank { b_no : &quot;320602010&quot; })&#10;match (enode:Bank )&#10;CALL apoc.path.expandConfig(snode, { minLevel:1, maxLevel: 1,  relationshipFilter:&quot;bank_transfer_to&lt;&quot;, uniqueness:&quot;NODE_PATH&quot;, endNodes:[enode]}) yield path&#10;with [r in RELATIONSHIPS(path) where type(r)=&quot;bank_transfer_to&quot; | r] as rs,path as p&#10;where 1=1&#10;and all(r in rs where r.count_ym=&quot;202201&quot;)&#10; and all(r IN rs WHERE TOFLOAT(r.trade_money)&gt;= 0) &#10; and all(r IN rs WHERE TOFLOAT(r.trade_num)&gt;= 0.0) &#10;return p&#10;ORDER BY [r in rs | r.trade_money] desc ;" />
               </GrepModel>
             </list>
           </option>
@@ -281,7 +281,7 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="match (snode:Bank { b_no : &quot;320602010&quot; })&#10;match (enode:Bank )&#10;CALL apoc.path.expandConfig(snode, { minLevel:1, maxLevel: 1,  relationshipFilter:&quot;bank_transfer_to&lt;&quot;, uniqueness:&quot;NODE_PATH&quot;, endNodes:[enode]}) yield path&#10;with [r in RELATIONSHIPS(path) where type(r)=&quot;bank_transfer_to&quot; | r] as rs,path as p&#10;where 1=1&#10;and all(r in rs where r.count_ym=&quot;202201&quot;)&#10; and all(r IN rs WHERE TOFLOAT(r.trade_money)&gt;= 0) &#10; and all(r IN rs WHERE TOFLOAT(r.trade_num)&gt;= 0.0) &#10;return p&#10;ORDER BY [r in rs | r.trade_money] desc ;" />
+                <option name="expression" value="match" />
               </GrepModel>
             </list>
           </option>
