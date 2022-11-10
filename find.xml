@@ -7,6 +7,7 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.pom" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -17,11 +18,11 @@
     <mask>*.ftl</mask>
     <mask>*.class</mask>
     <mask>*.yml</mask>
-    <mask>*.pom</mask>
     <mask>*Service.java</mask>
     <mask>*.xml</mask>
     <mask>*.gradle</mask>
     <mask>*</mask>
     <mask>*.java</mask>
+    <mask>*.pom</mask>
   </component>
 </application>
