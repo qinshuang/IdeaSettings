@@ -1,0 +1,138 @@
+<application>
+  <component name="CosySettings">
+    <option name="chatModelSelected">
+      <map>
+        <entry key="chat" value="dashscope_deepseek_reasoner" />
+        <entry key="developer" value="default" />
+      </map>
+    </option>
+    <option name="dedicatedDomainUrl" value="" />
+    <option name="localStoragePath" value="C:\Users\sqin\.lingma" />
+    <option name="parameter">
+      <ChangeUserSettingParams>
+        <option name="allowReportUsage" value="true" />
+        <option name="cloud">
+          <CloudModelParam>
+            <option name="autoTrigger">
+              <CloudModelAutoTrigger>
+                <option name="enable" value="true" />
+                <option name="generateLength" value="level_1" />
+                <option name="modelLevel" value="large" />
+              </CloudModelAutoTrigger>
+            </option>
+            <option name="enable" value="true" />
+            <option name="manualTrigger">
+              <CloudModelManualTrigger>
+                <option name="generateLength" value="level_3" />
+                <option name="modelLevel" value="large" />
+              </CloudModelManualTrigger>
+            </option>
+            <option name="showInlineWhenIDECompletion" value="true" />
+          </CloudModelParam>
+        </option>
+        <option name="local">
+          <LocalModelParam>
+            <option name="enable" value="false" />
+            <option name="inferenceMode" value="auto" />
+            <option name="maxCandidateNum" value="3" />
+          </LocalModelParam>
+        </option>
+      </ChangeUserSettingParams>
+    </option>
+    <option name="recentComplexQueries">
+      <map>
+        <entry key="ai-do-rag-service|1246201636988175|AiDeveloper">
+          <value>
+            <list>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="基于这个pom给我样例 从数据库中查询collection表的分页数据" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="selectedCode" />
+                          <option name="drillDownEnable" value="false" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="selectedCode" />
+                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#selectedCode" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="endLine" value="74" />
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="startLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="D:\Workpaces\slj\ai-do\servers\trunk\ai-do-rag-service\pom.xml#L71-L74" />
+                      <option name="name" value="D:\Workpaces\slj\ai-do\servers\trunk\ai-do-rag-service\pom.xml#L71-L74" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="sourceType" value="system" />
+                      <option name="statLine" value="71" />
+                      <option name="text" value="pom.xml" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="showInlineAcceptTips" value="false" />
+    <option name="showInlineTriggerTips" value="false" />
+  </component>
+</application>
